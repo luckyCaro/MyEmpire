@@ -51,4 +51,7 @@ class MainActivity : AppCompatActivity() {
             supportFragmentManager.beginTransaction().replace(R.id.place_holder, WorldFragment.newInstance()).commit()
         }
     }
+
+    fun initStartCountry() {
+    }
 }
