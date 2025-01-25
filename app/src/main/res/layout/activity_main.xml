@@ -86,40 +86,58 @@
 
     </LinearLayout>
 
+    <FrameLayout
+        android:id="@+id/place_holder"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="2dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+    </FrameLayout>
+
     <LinearLayout
+        android:id="@+id/linearLayout2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:layout_margin="5dp"
+        android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
         <ImageView
+            android:id="@+id/button_home"
             android:layout_width="32dp"
             android:layout_height="32dp"
             android:layout_weight="1"
             android:src="@drawable/home_icon" />
 
         <ImageView
+            android:id="@+id/button_economic"
             android:layout_width="32dp"
             android:layout_height="32dp"
             android:layout_weight="1"
             android:src="@drawable/economic_icon" />
 
         <ImageView
+            android:id="@+id/button_research"
             android:layout_width="32dp"
             android:layout_height="32dp"
             android:layout_weight="1"
             android:src="@drawable/research_icon" />
 
         <ImageView
+            android:id="@+id/button_army"
             android:layout_width="32dp"
             android:layout_height="32dp"
             android:layout_weight="1"
             android:src="@drawable/army_icon" />
 
         <ImageView
+            android:id="@+id/button_world"
             android:layout_width="32dp"
             android:layout_height="32dp"
             android:layout_weight="1"
